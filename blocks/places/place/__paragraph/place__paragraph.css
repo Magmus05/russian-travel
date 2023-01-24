@@ -1,0 +1,7 @@
+.place__paragraph {
+	font-size: 18px;
+	line-height: 29.34px;
+}
+.place__paragraph:nth-child(odd) {
+	margin-bottom: 26px;
+}
