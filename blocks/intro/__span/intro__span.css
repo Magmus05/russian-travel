@@ -1,0 +1,6 @@
+/*--------------media 0 - 1280 px-------------*/
+@media screen and (max-width: 1279px) {
+	.intro__span{
+		font-weight: 400;
+	}
+}

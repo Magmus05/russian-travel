@@ -6,3 +6,19 @@
 	line-height: 22px;
 	font-weight: 400;
 }
+/*--------------media 425 - 768 px-------------*/
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	.cover__subtitle {
+		max-width: 300px;
+		font-size: 15px;
+		line-height: 17px;
+	}
+}
+/*--------------media 425px-------------*/
+@media screen and (max-width: 425px) {
+	.cover__subtitle {
+		max-width: 288px;
+		font-size: 14px;
+		line-height: 16px;
+	}
+}

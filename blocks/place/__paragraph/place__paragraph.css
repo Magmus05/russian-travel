@@ -1,0 +1,24 @@
+.place__paragraph {
+	font-size: 18px;
+	line-height: 29.34px;
+}
+.place__paragraph:nth-child(odd) {
+	margin-bottom: 26px;
+}
+
+/*--------------media 1024 - 1280 px-------------*/
+@media screen and (max-width: 1279px) {
+	.place__paragraph:nth-child(odd) {
+		margin-bottom: 27px;
+	}
+}
+/*--------------media 768 - 1024 px-------------*/
+@media screen and (max-width: 1023px) {
+	.place__paragraph {
+		font-size: 16px;
+		line-height: 26.08px;
+	}
+	.place__paragraph:nth-child(odd) {
+		margin-bottom: 25px;
+	}
+}

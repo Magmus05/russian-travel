@@ -6,3 +6,21 @@
 	font-weight: 400;
 	text-align: center;
 }
+/*--------------media 425 - 768 px-------------*/
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	.lead__subtitle {
+		max-width: 400px;
+		margin: 16px auto 8vw;
+		font-size: 20px;
+		line-height: 25px;
+	}
+}
+/*--------------media 425px-------------*/
+@media screen and (max-width: 425px) {
+	.lead__subtitle {
+		max-width: 288px;
+		margin: 16px auto 40px;
+		font-size: 16px;
+		line-height: 20px;
+	}
+}

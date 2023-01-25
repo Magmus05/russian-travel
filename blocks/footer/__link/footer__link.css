@@ -8,3 +8,21 @@
 .footer__link:hover {
 	color: rgb(179, 178, 178);
 }
+/*--------------media 425 - 768 px-------------*/
+@media screen  and (max-width: 767px) {
+	.footer__link {
+		display: block;
+		margin-bottom: 32px;
+		font-size: 24px;
+		line-height: 24px;
+	}
+	.footer__link:last-child {
+		margin-bottom: 0;
+	}
+}
+/*--------------media 425 px-------------*/
+@media screen and (max-width: 425px) {
+	.footer__link:last-child {
+		margin-bottom: 48px;
+	}
+}
