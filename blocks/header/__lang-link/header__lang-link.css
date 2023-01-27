@@ -1,29 +1,29 @@
 .header__lang-link{
 	font-size: 24px;
 	line-height: 28px;
+	text-decoration: none;
+	color: #fff;
+	transition: color 0.3s;
 }
 .header__lang-link:hover{
-	color: rgb(206, 206, 206);
+	color: rgba(255,255,255,0.8);
 }
 .header__lang-link:nth-child(odd){
 	margin-right: 18px;
 }
-/*--------------media 425 - 768 px-------------*/
-@media screen and (min-width: 425px) and (max-width: 767px) {
+
+@media screen and (max-width: 767px) {
 	.header__lang-link{
 		font-size: 24px;
 		line-height: 24px;
 		margin-left: 12px;
 	}
 }
-/*--------------media 425px-------------*/
+
 @media screen and (max-width: 425px) {
 	.header__lang-link{
 		font-size: 18px;
 		line-height: 20px;
 		margin-left: 12px;
-	}
-	.header__lang-link:nth-child(odd){
-		margin-right: 7px;
 	}
 }

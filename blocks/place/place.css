@@ -1,17 +1,17 @@
 .place {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 92px 0 92px;
+	margin-bottom: 80px;
 }
-/*--------------media 425 - 768 px-------------*/
-@media screen and (min-width: 425px) and (max-width: 767px) {
+.place:last-child {
+	margin-bottom: 0;
+}
+@media screen and (max-width: 1023px) {
 	.place {
-		display: block;
-		margin-bottom: 50px;
+		margin-bottom: 73px;
 	}
 }
-/*--------------media 425px-------------*/
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
 	.place {
 		display: block;
 		margin-bottom: 50px;

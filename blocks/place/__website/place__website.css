@@ -4,25 +4,25 @@
 	align-self: flex-end;
 }
 
-/*--------------media 1024 - 1280 px-------------*/
+
 @media screen and (max-width: 1279px) {
 	.place__website {
 		max-width: 456px;
 	}
 }
-/*--------------media 768 - 1024 px-------------*/
+
 @media screen and (max-width: 1023px) {
 	.place__website {
 		max-width: 352px;
 	}
 }
-/*--------------media 425 - 768 px-------------*/
-@media screen and (min-width: 425px) and (max-width: 767px) {
+
+@media screen and (max-width: 767px) {
 	.place__website {
 		margin: 0 24px 32px;
 	}
 }
-/*--------------media 425px-------------*/
+
 @media screen and (max-width: 425px) {
 	.place__website {
 		margin: 0 16px 32px;

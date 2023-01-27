@@ -5,14 +5,14 @@
 	line-height: 76px;
 	font-weight: 900;
 }
-/*--------------media 1024 - 1280 px-------------*/
+
 @media screen and (max-width: 1279px) {
 	.place__title {
 		width: 440px;
 		margin: 0 32px 48px 0;
 	}
 }
-/*--------------media 768 - 1024 px-------------*/
+
 @media screen and (max-width: 1023px) {
 	.place__title {
 		width: 340px;
@@ -21,15 +21,14 @@
 		line-height: 46px;
 	}
 }
-/*--------------media 425 - 768 px-------------*/
-@media screen and (min-width: 425px) and (max-width: 767px) {
+
+@media screen and (max-width: 767px) {
 	.place__title {
 		font-size: 42px;
-		line-height: 46px;
 		margin: 0 24px 32px;
 	}
 }
-/*--------------media 425px-------------*/
+
 @media screen and (max-width: 425px) {
 	.place__title {
 		font-size: 32px;

@@ -4,9 +4,10 @@
 	margin-right: 18px;
 	font-size: 16px;
 	line-height: 18px;
+	transition: color 0.3s;
 }
 .footer__link:hover {
-	color: rgb(179, 178, 178);
+	color: rgba(255,255,255,0.8);
 }
 /*--------------media 425 - 768 px-------------*/
 @media screen  and (max-width: 767px) {
