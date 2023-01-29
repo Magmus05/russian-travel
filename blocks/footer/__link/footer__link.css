@@ -9,7 +9,6 @@
 .footer__link:hover {
 	color: rgba(255,255,255,0.8);
 }
-/*--------------media 425 - 768 px-------------*/
 @media screen  and (max-width: 767px) {
 	.footer__link {
 		display: block;
@@ -21,7 +20,6 @@
 		margin-bottom: 0;
 	}
 }
-/*--------------media 425 px-------------*/
 @media screen and (max-width: 425px) {
 	.footer__link:last-child {
 		margin-bottom: 48px;
