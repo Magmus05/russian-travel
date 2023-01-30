@@ -22,15 +22,8 @@
 
 @media screen and (max-width: 767px) {
 	.header{
-		max-width: 720px;
 		margin: 0 16px 48px;
 		padding-top: 16px;
-	}
-}
-
-@media screen and (max-width: 425px) {
-	.header{
-		height: 42px;
 	}
 }
 
