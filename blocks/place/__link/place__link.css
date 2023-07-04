@@ -3,8 +3,12 @@
 	font-size: 18px;
 	line-height: 22px;
 	text-decoration: underline;
-	transition: color 0.3s;
+	transition: all 0.5s;
+	cursor: pointer;
+	display: inline-block;
 }
 .place__link:hover {
+
 	color: rgba(255,255,255,0.8);
+	transform: scale(1.15);
 }

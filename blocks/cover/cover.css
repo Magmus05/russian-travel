@@ -1,4 +1,6 @@
 .cover {
 	 max-width: 1184px;
 	 margin: 0 auto;
+	 overflow: hidden;
+	 border-radius: 2%;
 }

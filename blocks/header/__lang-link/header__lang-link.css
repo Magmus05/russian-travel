@@ -3,13 +3,16 @@
 	line-height: 28px;
 	text-decoration: none;
 	color: #fff;
-	transition: color 0.3s;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin-right: 18px;
 }
 .header__lang-link:hover{
-	color: rgba(255,255,255,0.8);
+	color: rgba(255, 255, 255, 0.8);
+	transform: scale(1.2);
 }
-.header__lang-link:nth-child(odd){
-	margin-right: 18px;
+.header__lang-link:last-child{
+	margin-right: 0px;
 }
 
 @media screen and (max-width: 767px) {

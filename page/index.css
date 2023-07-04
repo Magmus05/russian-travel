@@ -42,3 +42,12 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+@import url(../blocks/popup-foto/popup-foto.css);
+@import url(../blocks/popup-foto/popup.css);
+@import url(../blocks/popup-foto/__wrapper/popup-foto__wrapper.css);
+@import url(../blocks/popup-foto/__image/popup-foto__image.css);
+@import url(../blocks/popup-foto/__image-name/popup-foto__image-name.css);
+@import url(../blocks/popup-foto/__close/popup-foto__close.css);
+@import url(../blocks/popup-foto/_opened/popup_opened.css);
+@import url(../blocks/popup-foto/sr-only.css);

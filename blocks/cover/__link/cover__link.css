@@ -1,3 +1,11 @@
+@keyframes anime {
+	from {
+		transform: scale(1) ;
+	}
+	to {
+		transform: scale(1.1) ;
+	}
+}
 .cover__link{
 	background: url(../../../images/cover-trains.jpg) center/ cover no-repeat;
 	max-width: 1184px;
@@ -10,8 +18,13 @@
 	color: #fff;
 	position: relative;
 	z-index: 1;
+	transition: all 1s;
+	cursor: pointer;
+	animation: anime 3s infinite alternate ease-in;
 }
-
+.cover__link:hover{
+	animation-play-state: paused;
+}
 .cover__link::before{
 	content: "";
 	position: absolute;
