@@ -5,6 +5,14 @@
 	line-height: 36px;
 	font-weight: 400;
 	text-align: center;
+	transform: translate(0px, -110%);
+	opacity: 0;
+	transition: all 0.8s ease 0.5s;
+}
+
+.lead__subtitle._active-amimation{
+	transform: translate(0px, 0px);
+	opacity: 1;
 }
 
 @media screen and (max-width: 1024px) {

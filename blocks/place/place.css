@@ -3,6 +3,7 @@
 	grid-template-columns: 460px minmax(456px, auto);
 	margin-bottom: 80px;
 	gap: 48px 40px;
+
 }
 .place:last-child {
 	margin-bottom: 0;

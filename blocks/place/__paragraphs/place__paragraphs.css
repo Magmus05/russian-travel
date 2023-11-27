@@ -1,4 +1,12 @@
-
+.place__paragraphs{
+	transform: translate(110%, 0px);
+	opacity: 0;
+	transition: all 0.8s ease 0s;
+}
+.place__paragraphs._active-amimation{
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
 @media screen and (max-width: 767px) {
 	.place__paragraphs{
 		margin: 0 24px;

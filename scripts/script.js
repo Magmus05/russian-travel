@@ -5,6 +5,38 @@ const fotoGrid = page[1].children[1].children[2];
 const russianLang = page[1].children[0].children[1].children[0];
 const englishLang = page[1].children[0].children[1].children[1];
 const deutscheLang = page[1].children[0].children[1].children[2];
+const animItems = document.querySelectorAll('._anim-items')
+
+
+
+if(animItems.length > 0){
+  window.addEventListener('scroll', animOnScroll);
+  function animOnScroll(){
+    animItems.forEach((animItem)=>{
+      const animItemHeight = animItem.offsetHeight;
+      const animItemOffset = offset(animItem).top;
+
+      const animStart = 5;
+      let animItemPoint = window.innerHeight - animItemHeight / animStart;
+      if(animItemHeight > window.innerHeight) {
+        animItemPoint = window.innerHeight - window.innerHeight / animStart;
+      }
+      if(document.documentElement.scrollTop > (animItemOffset - animItemPoint) && document.documentElement.scrollTop < (animItemOffset + animItemHeight)) {
+        animItem.classList.add('_active-amimation')
+      }else {
+        if(!animItem.classList.contains('_anim-no-hide')) animItem.classList.remove('_active-amimation')
+      }
+    })
+
+  }
+
+  function offset(element){
+    const rect = element.getBoundingClientRect();
+    return {top: rect.top + document.documentElement.scrollTop, left: rect.left + document.documentElement.scrollLeft }
+  }
+  setTimeout(()=>{animOnScroll()}, 200)
+
+}
 
 
 //---------блок LEAD--------------\\
@@ -187,4 +219,3 @@ popupImage.addEventListener('mousedown', (evt)=>{
 		closePopup(popupImage)
 	}
 })
-

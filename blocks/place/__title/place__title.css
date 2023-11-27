@@ -3,6 +3,14 @@
 	line-height: 76px;
 	font-weight: 900;
 	margin: 0;
+	transform: translate(-110%, 0px);
+	opacity: 0;
+	transition: all 0.8s ease 0s;
+}
+
+.place__title._active-amimation{
+	transform: translate(0px, 0px);
+	opacity: 1;
 }
 
 @media screen and (max-width: 1023px) {

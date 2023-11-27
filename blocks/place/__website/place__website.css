@@ -1,8 +1,14 @@
 .place__website {
 	align-self: flex-end;
 	margin: 0;
+	transform: translate(110%, 0px);
+	opacity: 0;
+	transition: all 0.8s ease 0s;
 }
-
+.place__website._active-amimation{
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
 @media screen and (max-width: 767px) {
 	.place__website {
 		margin: 0 24px 32px;

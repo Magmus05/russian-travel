@@ -10,7 +10,6 @@
 }
 
 .footer__link:hover {
-
 	transform: scale(1.2);
 	color: rgba(255, 255, 255, 0.8);
 }
@@ -28,5 +27,9 @@
 @media screen and (max-width: 425px) {
 	.footer__link:last-child {
 		margin-bottom: 48px;
+	}
+	.footer__link:hover {
+		transform: scale(1.1) translateX(10px);
+		color: rgba(255, 255, 255, 0.8);
 	}
 }

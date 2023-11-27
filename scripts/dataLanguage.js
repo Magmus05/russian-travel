@@ -42,7 +42,7 @@ export const dataLang = {
     footerLinkTravellings: "Путешествия",
     footerCopyright: "&#169; 2023. Мусакадиев Магомед",
   },
-	//---------------------------------------------//
+   //-------------------ENG-----------------------//
   engLang: {
     leadTitle: "Travelling in Russia",
     leadSubtitle: "The real country is not in the news releases, but here",
@@ -86,6 +86,7 @@ export const dataLang = {
     footerLinkTravellings: "Travellings",
     footerCopyright: "&#169; 2023. Musakadiev Magomed",
   },
+  	//-----------------DE-------------------------//
   deLang: {
     leadTitle: "Reisen in Russland",
     leadSubtitle: "Das wahre Land ist nicht in den Nachrichten, sondern hier",
